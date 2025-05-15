@@ -8,7 +8,7 @@ It trains a contrastive image-text model on a 1 k-sample Flickr8k subset (editab
 * **Shared 512-d embedding space** with InfoNCE contrastive loss.
 * **Learnable concept memory** (100 keys) that adds a concept-alignment loss.
 * **Caption augmentation & pseudo object labels** to enrich concept grounding.
-* **Dataset** – Flickr8k subset (1 000 images × 5 captions) for lightning-fast experiments.
+* **Dataset** – Flickr8k subset (1 000 images × 5 captions) for fast experiments.
 * **Quick-test toggles** – edit `MAX_TRAIN_STEPS` / `MAX_EVAL_STEPS` to switch between a smoke test and a full epoch.
 * **Interactive retrieval** – call `find_similar_images()` to show the top-*k* images for any text query.
 
